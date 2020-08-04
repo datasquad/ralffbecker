@@ -1,0 +1,15 @@
+name: "Skills for Studying Economics"
+navbar:
+  title: "HOME"
+  left:
+#    - text: "Researching"
+#      href: researching.html
+
+      
+output_dir: "."
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+#    include:
+#      after_body: _footer.html

@@ -1,0 +1,18 @@
+---
+title: "Ralf Becker"
+author:  "[Economics Department](https://www.socialsciences.manchester.ac.uk/economics/) at [The University of Manchester](http://www.manchester.ac.uk), August 2020"
+output:
+  html_document:
+    fig_width: 1
+---
+
+----
+
+This webpage is under construction
+
+Ralf Becker
+Economics, School of Social Sciences
+The University of Manchester
+
+
+
