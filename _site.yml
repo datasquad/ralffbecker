@@ -1,9 +1,9 @@
-name: "Skills for Studying Economics"
+name: "Ralf Becker"
 navbar:
   title: "HOME"
   left:
-#    - text: "Researching"
-#      href: researching.html
+    - text: "Contact and CV"
+      href: CV.html
 
       
 output_dir: "."

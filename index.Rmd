@@ -10,9 +10,16 @@ output:
 
 This webpage is under construction
 
+![](images/RalBeckerUni.jpg)
+
 Ralf Becker
 Economics, School of Social Sciences
 The University of Manchester
 
+# Short Bio
 
+After my undergraduate degree in Economics from the Johannis Gutenberg University (Mainz, Germany) I studied for my PhD degree at the Queensland University of Technology (Brisbane, Australia, Supervisor: [Prof Stan Hurn](https://staff.qut.edu.au/staff/s.hurn). After completing my PhD in 2003 I worked as a Lecturer at QUT before starting as a Lecturer in Economics at the University of Manchester in January 2005. 
+I am passionate about teaching economics and in particular quantitative skills (mathematics, statistics and econometrics). I have a particular focus on helping students to develop relevant quantitative skills like programming in R or MATLAB.
+
+In my time at Manchester I have worked in numerous professional service positions and am currently the Deputy Head of Department with responsibility for Teaching. I am an Executive Group Member of the [Economics Network](https://www.economicsnetwork.ac.uk/).
 

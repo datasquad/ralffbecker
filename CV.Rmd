@@ -1,0 +1,22 @@
+---
+title: "Contact and CV"
+output:
+  html_document
+---
+
+## Contact Details
+
+Prof Ralf Becker  
+Oxford Rd  
+Manchester, M13 9PL  
+United Kingdom  
+
+ralf.becker@manchester.ac.uk  
+ralffbecker@gmail.com  
+twitter: [at ralffbecker](https://twitter.com/ralffbecker)
+
+## Curriculum Vitae
+
+[Short Version](docs/Ralf Becker CV Short.pdf){target="_blank"}  
+[Long Version](docs/Becker R CV Mcr v2.pdf){target="_blank"}
+
