@@ -1,0 +1,23 @@
+---
+title: "Teaching - Units"
+output:
+  html_document
+---
+
+## Overview
+
+I taught a large range of units at all levels for large and small classes. My main expertise in teaching lies in teaching statistics and econometrics units. Lately I have also been teaching a large first year Mathematics unit as well as a study skills unit for first year economics students.
+
+### Advanced Mathematics (1st year economics and business students, app 900 students)
+
+Advanced Mathematics is a course which helps students develop the core mathematical tools they require to study on Economics units, namely the Lagrangian Method to tackle constrained multivariate optimisation problems as well as the skills to solve simple difference equations. It assumes that students have either done the equivalent of A-level Maths or had a prior mathematics course which taught students up to partial derivatives.
+
+The unit is structured in a way which delivers the actual content asynchroneously through Mobius Lessons (technology provided by [DigitalEd](https://www.digitaled.com/mobius). This is effectively an online, interactive textbook, which attempts to interweave text-based delivery, with supplementary videos and short exercises which students tackle right after being presented new bits of content. This delivers immediate feedback opportunities for the learner.
+
+### Quantitative Methods (2nd year non-technical econometrics unit)
+
+Quantitative Methods is an econometrics unit with a clear focus on modern causal inference methods (e.g. diff-in-diff, regression discontinuity, IV). This unit has an explicit empirical and practical focus and students are exposed to a significant amount of coding in R. A substantial part of the unit’s assessment is an empirical group project.
+
+[Short Version](docs/Ralf Becker CV Short.pdf){target="_blank"}  
+[Long Version](docs/Becker R CV Mcr v2.pdf){target="_blank"}
+

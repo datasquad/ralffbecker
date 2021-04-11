@@ -4,7 +4,10 @@ navbar:
   left:
     - text: "Contact and CV"
       href: CV.html
-
+    - text: "Teaching - Units"
+      href: Teaching_Units.html
+    - text: "Teaching - General"
+      href: Teaching_General.html
       
 output_dir: "."
 output:

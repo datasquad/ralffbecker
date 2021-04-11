@@ -1,0 +1,26 @@
+---
+title: "Teaching - General"
+output:
+  html_document
+---
+
+## Overview
+
+Teaching was always central to my understanding as a University lecturer. I have a deep interest in understanding how students learn and therefore how we, as teaching staff, can support such learning.
+
+Below you will find some of my thoughts on a range of issues.
+
+### Flipped Classrooms
+
+
+### Discussion Boards
+
+
+### Teaching Econometrics
+
+
+
+
+[Short Version](docs/Ralf Becker CV Short.pdf){target="_blank"}  
+[Long Version](docs/Becker R CV Mcr v2.pdf){target="_blank"}
+
