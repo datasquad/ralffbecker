@@ -16,8 +16,11 @@ The unit is structured in a way which delivers the actual content asynchroneousl
 
 ### Quantitative Methods (2nd year non-technical econometrics unit)
 
-Quantitative Methods is an econometrics unit with a clear focus on modern causal inference methods (e.g. diff-in-diff, regression discontinuity, IV). This unit has an explicit empirical and practical focus and students are exposed to a significant amount of coding in R. A substantial part of the unit’s assessment is an empirical group project.
+I teach this unit together with my colleague Martyn Andrews. Quantitative Methods is an econometrics unit with a clear focus on modern causal inference methods (e.g. diff-in-diff, regression discontinuity, IV) with a short introduction to time-series issues (mainly issues leading up to spurious regressions). This unit has an explicit empirical and practical focus and students are exposed to a significant amount of coding in R. A substantial part of the unit’s assessment is an empirical group project.
 
-[Short Version](docs/Ralf Becker CV Short.pdf){target="_blank"}  
-[Long Version](docs/Becker R CV Mcr v2.pdf){target="_blank"}
+A major contribution of this unit is to put the programming (in R) at the center of the student's learning. There are weekly scripts which allow students to replicate all the empirical work presented in the content sections of the unit (Examples: [Card and Krueger Minimum Wage Example](docs/CardKrueger.pdf){target="_blank"}, [Analysing Covid data](docs/Data_Intro_2_Covid_new.pdf){target="_blank"}). 
+
+In addition there are regular computer labs leading students through programming tasks. The main feature of these computer labs is that students are guided through the material without being given all the correct code. With appropriate scaffolding students are asked to complete code, adjust code, find errors in code, use the help functions and search on the internet for solutions. This is to help students develop programming skills which allow them to prosper outside the confines of the unit. (Examples: [Lab 0](docs/Comp_Lab_0.pdf){target="_blank"}, [Lab 1](docs/Comp_Lab_1.pdf){target="_blank"}, [Lab 2](docs/Comp_Lab_2.pdf){target="_blank"})
+
+
 

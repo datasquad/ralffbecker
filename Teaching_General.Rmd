@@ -10,6 +10,20 @@ Teaching was always central to my understanding as a University lecturer. I have
 
 Below you will find some of my thoughts on a range of issues.
 
+### Interactive Textbooks
+
+In my large year one Advanced Mathematics unit I (in 2020/21) relied on delivering material largely via an interactive textbook style resource. This resource combines text delivery with online clips. This is in principle just like any website could do. But the unique feature of this resource is that it 
+
+* Ties in with the virtual learning environment (in my case Blackboard)
+* It allows the tie-in of quizzes to give students practice and feedback opportunities right at the place where new material is delivered
+* The type of quizzes or questions which can be tied-in is very varied (multiple-choice, fill the gaps, algebraic questions) and can be randomised such that students can obtain multiple fresh practice opportunities.
+
+This video clip provides a brief walk-through:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9Jlr7SIcHPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 ### Flipped Classrooms
 
 
