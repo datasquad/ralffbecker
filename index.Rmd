@@ -8,9 +8,7 @@ output:
 
 ----
 
-This webpage is under construction
-
-![](images/RalBeckerUni.jpg)
+![](images/RalBeckerUni.jpg){width=50%}
 
 Ralf Becker
 Economics, School of Social Sciences

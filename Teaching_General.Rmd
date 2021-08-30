@@ -10,6 +10,10 @@ Teaching was always central to my understanding as a University lecturer. I have
 
 Below you will find some of my thoughts on a range of issues.
 
+### Doing Economics
+
+Together with Eileen Tipoe I have authored the [Doing Economics](https://www.core-econ.org/doing-economics/){target="_blank"} online book, which is part of the [coreecon portfolio of online resources](https://www.core-econ.org/){target="_blank"}. My main contribution here (together with my late friend and colleague James Lincoln) is the writing of the R versions of projects.
+
 ### Interactive Textbooks
 
 In my large year one Advanced Mathematics unit I (in 2020/21) relied on delivering material largely via an interactive textbook style resource. This resource combines text delivery with online clips. This is in principle just like any website could do. But the unique feature of this resource is that it 
@@ -18,23 +22,39 @@ In my large year one Advanced Mathematics unit I (in 2020/21) relied on deliveri
 * It allows the tie-in of quizzes to give students practice and feedback opportunities right at the place where new material is delivered
 * The type of quizzes or questions which can be tied-in is very varied (multiple-choice, fill the gaps, algebraic questions) and can be randomised such that students can obtain multiple fresh practice opportunities.
 
+Here is a [short write-up](https://sites.manchester.ac.uk/humteachlearn/2021/07/20/online-interactive-textbook-content-delivery-052/){target="_blank"} of my experiences including student feedback.
+
 This video clip provides a brief walk-through:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9Jlr7SIcHPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+In summary I conclude that, certainly in the context of this course unit, but perhaps also more generally, there can be significant benefits to keep the content delivery online for students to peruse asynchronously such that live meetings can become a more meaningful part of students' learning experience.
 
 ### Flipped Classrooms
 
+I have been applying principles of flipped classroom pedagogy for many years. My general ideas on this topic are best summarised in this shourt introduction (with Alvin Birdi) to a special issue of the International Review of Economics Education (2018, Vol 29)
+[Flipping the Classroom: Old Ideas, New Technologies (2018) (with Alvin Birdi),  International Review of Economics Education, 29, p 1-5](https://www.sciencedirect.com/science/article/pii/S1477388018300458){target="_blank"}.
+
+In short I believe that the most important contribution of flipped classroom pedagogy is that it allows lecturers to concentrate, in live meetings with students, on providing students with deeper discussion of the content's real-life context, question and revision opportunities, in short with opportunities to better motivate students to engage with the material.
+
+Thoughts on how to use the flipped classroom methodology in a small-group teaching context are available from this article (with my colleague Steven Proud) [Flipping Quantitative Tutorials. (2018), International Review of Economics, 29, p 59-73](https://www.sciencedirect.com/science/article/pii/S1477388016300457){target="_blank"}.
 
 ### Discussion Boards
 
+Discussion boards have become an important part in my teaching delivery, especially in large units. Some of my experiences are summarised in this [blog post](https://sites.manchester.ac.uk/humteachlearn/2020/09/09/discussion-boards-002/){target="_blank"}. I created a number of other resources to support lecturers:
+
+* A [spark introduction page](https://spark.adobe.com/page/SzGi1DcnaGR1V/){target="_blank"} to discussion boards for students. This has been shared with a few colleagues around university.
+* A 8 min [video](https://www.youtube.com/watch?v=t2OXEXR_ifo){target="_blank"} summarising some findings of a Student Survey on the use of discussion boards.
+* Here is a clip (8 min) discussing the role of TAs on discussion boards. 
+* Cheat Sheets on the use of discussion boards: For [Course Convenors/Directors](https://sites.manchester.ac.uk/humteachlearn/wp-content/uploads/sites/205/2020/09/Cheat-Sheet-Discussion-Board.pdf){target="_blank"}, for [Teaching Assistants](https://sites.manchester.ac.uk/humteachlearn/wp-content/uploads/sites/205/2020/09/Cheat-Sheet-Discussion-Board-TA.pdf){target="_blank"}.
+
+Much of this work was supported by the University of Manchester's [Institute of Teaching and Learning](https://www.staffnet.manchester.ac.uk/umitl/){target="_blank"} for which I held a one year fellowship (in 2020/21).
 
 ### Teaching Econometrics
 
+I have been teaching econometrics units since I completed my PhD as a Time-Series econometrician. In my teaching I have been using elements of classroom flipping such that I can spend more time in the classroom on motivating students by focusing on intuition and applications. This is facilitated by providing substantial elements of content through video clips. Many of these are collected on my [YouTube Channel](https://www.youtube.com/c/RalfBecker){target="_blank"}
 
 
 
-[Short Version](docs/Ralf Becker CV Short.pdf){target="_blank"}  
-[Long Version](docs/Becker R CV Mcr v2.pdf){target="_blank"}
+
 
