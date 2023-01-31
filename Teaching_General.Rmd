@@ -48,7 +48,7 @@ Here are a few examples of such lesson from the Advanced Statistics unit. They a
 * [Normal Random Variables](docs/Normal RV.pdf){target="_blank"}
 * [Combinations of Random Variables](docs/Combinations of RV.pdf){target="_blank"}
 
-
+Some of the work leading to this has been supported by the Royal Economic Society, COVID support funds.
 
 ![](images/divider2.png){width=100%}
 
