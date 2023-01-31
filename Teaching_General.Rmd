@@ -18,11 +18,11 @@ Together with Eileen Tipoe I have authored the [Doing Economics](https://www.cor
 
 ### Interactive Textbooks
 
-In my large year one Advanced Mathematics unit I (in 2020/21) relied on delivering material largely via an interactive textbook style resource. This resource combines text delivery with online clips. This is in principle just like any website could do. But the unique feature of this resource is that it 
+In my large year one Advanced Mathematics and Advanced Staitstics units I (2020/21 to 2021/22 for Maths and since 2022/23 in Stats) relied on delivering material largely via an interactive textbook style resource. This resource combines text delivery with online clips. This is in principle just like any website could do. But the unique feature of this resource is that it 
 
-* Ties in with the virtual learning environment (in my case Blackboard)
-* It allows the tie-in of quizzes to give students practice and feedback opportunities right at the place where new material is delivered
-* The type of quizzes or questions which can be tied-in is very varied (multiple-choice, fill the gaps, algebraic questions) and can be randomised such that students can obtain multiple fresh practice opportunities.
+* Ties in with the virtual learning environment (in my case Blackboard), i.e. data are exchanged about student activity
+* It allows the inclusion of questions to give students practice and feedback opportunities right at the place where new material is delivered
+* The type of questions which can be tied-in is very varied (multiple-choice, fill the gaps, calculation and algebraic questions). These questions can be randomised such that students can obtain multiple fresh practice opportunities.
 
 Here is a [short write-up](https://sites.manchester.ac.uk/humteachlearn/2021/07/20/online-interactive-textbook-content-delivery-052/){target="_blank"} of my experiences including student feedback.
 
@@ -31,6 +31,12 @@ This video clip provides a brief walk-through:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9Jlr7SIcHPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In summary I conclude that, certainly in the context of this course unit, but perhaps also more generally, there can be significant benefits to keep the content delivery online for students to peruse asynchronously such that live meetings can become a more meaningful part of students' learning experience.
+
+Here are a few examples of such lesson from the Advanced Statistics unit. They are set as pdf files, but you will see from these files how the questions and videos are tied in with tho content delivery.
+
+* [Introduction to Statistics](docs/Intro to Stats.pdf){target="_blank"}  
+* [Data Types](docs/DataTypes.pdf){target="_blank"}
+* [Descriptive Statistics](docs/Descriptive Statistics.pdf){target="_blank"}
 
 ![](images/divider2.png){width=100%}
 
