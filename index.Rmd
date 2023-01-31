@@ -1,6 +1,6 @@
 ---
 title: "Ralf Becker"
-author:  "[Economics Department](https://www.socialsciences.manchester.ac.uk/economics/) at [The University of Manchester](http://www.manchester.ac.uk), August 2020"
+author:  "[Economics Department](https://www.socialsciences.manchester.ac.uk/economics/) at [The University of Manchester](http://www.manchester.ac.uk), January 2023"
 output:
   html_document:
     fig_width: 1

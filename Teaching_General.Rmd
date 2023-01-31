@@ -32,11 +32,23 @@ This video clip provides a brief walk-through:
 
 In summary I conclude that, certainly in the context of this course unit, but perhaps also more generally, there can be significant benefits to keep the content delivery online for students to peruse asynchronously such that live meetings can become a more meaningful part of students' learning experience.
 
+[Presentation Slides](docs/Using an Online Interactive Textbook for Content Delivery - Warwick Oct 2022.pptx){target="_blank"}  
+
 Here are a few examples of such lesson from the Advanced Statistics unit. They are set as pdf files, but you will see from these files how the questions and videos are tied in with tho content delivery.
 
 * [Introduction to Statistics](docs/Intro to Stats.pdf){target="_blank"}  
 * [Data Types](docs/DataTypes.pdf){target="_blank"}
-* [Descriptive Statistics](docs/Descriptive Statistics.pdf){target="_blank"}
+* [Descriptive Statistics](docs/DescriptiveStatistics.pdf){target="_blank"}
+* [Graphical Descriptive](docs/GraphicalDescriptive.pdf){target="_blank"}
+* [Correlation and Regression as Descriptive Statistics](docs/CorrReg.pdf){target="_blank"}
+* [Introduction to Probability](docs/ProbIntro.pdf){target="_blank"}
+* [Conditional Probability](docs/ProbCond.pdf){target="_blank"}
+* [Discrete Random Variables](docs/Discrete RV.pdf){target="_blank"}
+* [Continuous Random variables](docs/Continuous RV.pdf){target="_blank"}
+* [Normal Random Variables](docs/Normal RV.pdf){target="_blank"}
+* [Combinations of Random Variables](docs/Combinations of RV.pdf){target="_blank"}
+
+
 
 ![](images/divider2.png){width=100%}
 
