@@ -68,6 +68,7 @@ This [video, 22min](https://video.manchester.ac.uk/embedded/ffffffff-f535-7bc7-0
 * Creation of multi-part questions
 * Algebraic answers (using EXCEL style syntax)
 
+![](images/divider4.png){width=100%}
 
 ### Flipped Classrooms
 
