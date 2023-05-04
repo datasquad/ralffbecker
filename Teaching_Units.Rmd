@@ -12,7 +12,7 @@ I taught a large range of units at all levels for large and small classes. My ma
 
 Advanced Mathematics is a course which helps students develop the core mathematical tools they require to study on Economics units, namely the Lagrangian Method to tackle constrained multivariate optimisation problems as well as the skills to solve simple difference equations. It assumes that students have either done the equivalent of A-level Maths or had a prior mathematics course which taught students up to partial derivatives.
 
-The unit is structured in a way which delivers the actual content asynchroneously through Mobius Lessons (technology provided by [DigitalEd](https://www.digitaled.com/mobius). This is effectively an online, interactive textbook, which attempts to interweave text-based delivery, with supplementary videos and short exercises which students tackle right after being presented new bits of content. This delivers immediate feedback opportunities for the learner.
+The unit is structured in a way which delivers the actual content asynchroneously through Mobius Lessons (technology provided by [DigitalEd](https://www.digitaled.com/mobius). This is effectively an online, interactive textbook, which attempts to interweave text-based delivery, with supplementary videos and short exercises which students tackle right after being presented new bits of content. This delivers immediate feedback opportunities for the learner. More detail on this [here](https://datasquad.github.io/ralffbecker/Teaching_General.html).
 
 ### Quantitative Methods (2nd year non-technical econometrics unit)
 
