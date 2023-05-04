@@ -34,7 +34,7 @@ In summary I conclude that, certainly in the context of this course unit, but pe
 
 [Presentation Slides](docs/Using an Online Interactive Textbook for Content Delivery - Warwick Oct 2022.pptx){target="_blank"}  
 
-Here are a few examples of such lesson from the Advanced Statistics unit. They are set as pdf files, but you will see from these files how the questions and videos are tied in with tho content delivery.
+Here are a few examples of such lesson from the Advanced Statistics unit. They are set as pdf files, but you will see from these files how the questions and videos are tied in with the content delivery.
 
 * [Introduction to Statistics](docs/Intro to Stats.pdf){target="_blank"}  
 * [Data Types](docs/DataTypes.pdf){target="_blank"}
@@ -47,10 +47,27 @@ Here are a few examples of such lesson from the Advanced Statistics unit. They a
 * [Continuous Random variables](docs/Continuous RV.pdf){target="_blank"}
 * [Normal Random Variables](docs/Normal RV.pdf){target="_blank"}
 * [Combinations of Random Variables](docs/Combinations of RV.pdf){target="_blank"}
+* [Sampling Distributions](docs/Sampling Distributions.pdf){target="_blank"}
+* [Hypothesis Testing](docs/Hypothesis Testing.pdf){target="_blank"}
+* [Confidence Intervals](docs/Confidence Interval.pdf){target="_blank"}
+* [Regression Inference](docs/Regression Inference.pdf){target="_blank"}
 
-Some of the work leading to this has been supported by the Royal Economic Society, COVID support funds.
+Some of the work leading to this has been supported by the Royal Economic Society, COVID support funds. Some of these sections received substantial editorial and editing support from Yichen Zhu, University of Manchester.
 
 ![](images/divider2.png){width=100%}
+
+### Automated Assessment for Mathematics and Statistics
+
+As I have been teaching Mathematics and Statistics for large Year 1 University cohorts I have been attempting to develop assessments that can be efficiently administered (in other words, being largely automatically graded) and yet allow the testing of a variety of skills. At the same time, the online nature of these assessments make it imperative, assessments are delivered in a way that make unwanted collaboration (where assessing individuals summatively) very difficult. 
+
+The method used in my big Year 1 Advanced Mathematics and Advanced Statistics units rely on the Mobius platform by [DigitalEd](https://www.digitaled.com/mobius) (similar assessments can, to the best of my knowledge, be designed using the [Stack](https://stack-assessment.org/) platform).
+
+This [video, 22min](https://video.manchester.ac.uk/embedded/ffffffff-f535-7bc7-0000-01830d8762c0) describes the user interface and some of the useful assessment features that can be built into automated assessments. Some of these are
+
+* Randomisation of question information
+* Creation of multi-part questions
+* Algebraic answers (using EXCEL style syntax)
+
 
 ### Flipped Classrooms
 

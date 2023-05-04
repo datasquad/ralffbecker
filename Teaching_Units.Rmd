@@ -8,11 +8,13 @@ output:
 
 I taught a large range of units at all levels for large and small classes. My main expertise in teaching lies in teaching statistics and econometrics units. Lately I have also been teaching a large first year Mathematics unit as well as a study skills unit for first year economics students.
 
-### Advanced Mathematics (1st year economics and business students, app 900 students)
+### Advanced Mathematics and Advanced Statistics (1st year economics and business students, app 900 students)
 
 Advanced Mathematics is a course which helps students develop the core mathematical tools they require to study on Economics units, namely the Lagrangian Method to tackle constrained multivariate optimisation problems as well as the skills to solve simple difference equations. It assumes that students have either done the equivalent of A-level Maths or had a prior mathematics course which taught students up to partial derivatives.
 
-The unit is structured in a way which delivers the actual content asynchroneously through Mobius Lessons (technology provided by [DigitalEd](https://www.digitaled.com/mobius). This is effectively an online, interactive textbook, which attempts to interweave text-based delivery, with supplementary videos and short exercises which students tackle right after being presented new bits of content. This delivers immediate feedback opportunities for the learner. More detail on this [here](https://datasquad.github.io/ralffbecker/Teaching_General.html).
+Advanced Statistics follows on from Advanced Mathematics and helps students to develop skills in descriptive and inferential statistics. In the course of learning these skills students also are supported in implementing any techniques taught in EXCEL as being able to navigate around a spreadsheet programme is a crucial skill for their further studies and live after University.
+
+These units are structured in a way which delivers the actual content asynchronously through Mobius Lessons (technology provided by [DigitalEd](https://www.digitaled.com/mobius). This is effectively an online, interactive textbook, which attempts to interweave text-based delivery, with supplementary videos and short exercises which students tackle right after being presented new bits of content. This delivers immediate feedback opportunities for the learner. More detail on this [here](https://datasquad.github.io/ralffbecker/Teaching_General.html).
 
 ### Quantitative Methods (2nd year non-technical econometrics unit)
 
