@@ -87,7 +87,6 @@ Discussion boards have become an important part in my teaching delivery, especia
 
 * A [spark introduction page](https://spark.adobe.com/page/SzGi1DcnaGR1V/){target="_blank"} to discussion boards for students. This has been shared with a few colleagues around university.
 * A 8 min [video](https://www.youtube.com/watch?v=t2OXEXR_ifo){target="_blank"} summarising some findings of a Student Survey on the use of discussion boards.
-* Here is a clip (8 min) discussing the role of TAs on discussion boards. 
 * Cheat Sheets on the use of discussion boards: For [Course Convenors/Directors](https://sites.manchester.ac.uk/humteachlearn/wp-content/uploads/sites/205/2020/09/Cheat-Sheet-Discussion-Board.pdf){target="_blank"}, for [Teaching Assistants](https://sites.manchester.ac.uk/humteachlearn/wp-content/uploads/sites/205/2020/09/Cheat-Sheet-Discussion-Board-TA.pdf){target="_blank"}.
 
 Much of this work was supported by the University of Manchester's [Institute of Teaching and Learning](https://www.staffnet.manchester.ac.uk/umitl/){target="_blank"} for which I held a one year fellowship (in 2020/21).
@@ -96,7 +95,9 @@ Much of this work was supported by the University of Manchester's [Institute of 
 
 ### Teaching Econometrics
 
-I have been teaching econometrics units since I completed my PhD as a Time-Series econometrician. In my teaching I have been using elements of classroom flipping such that I can spend more time in the classroom on motivating students by focusing on intuition and applications. This is facilitated by providing substantial elements of content through video clips. Many of these are collected on my [YouTube Channel](https://www.youtube.com/c/RalfBecker){target="_blank"}
+I have been teaching econometrics units since I completed my PhD as a Time-Series econometrician. In my teaching I have been using elements of classroom flipping such that I can spend more time in the classroom on motivating students by focusing on intuition and applications. This is facilitated by providing substantial elements of content through video clips. Many of these are collected on my [YouTube Channel](https://www.youtube.com/c/RalfBecker){target="_blank"}.
+
+I am enthusiastic about helping students to develop practical coding skills (currently mainly in R). To support this me and colleagues are collating some resources which guide students throuh the learning process in R on the [Econometric Computing Learning Resource - ECLR](https://datasquad.github.io/ECLR/) webpage.
 
 
 
