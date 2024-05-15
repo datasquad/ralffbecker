@@ -68,6 +68,8 @@ This [video, 22min](https://video.manchester.ac.uk/embedded/ffffffff-f535-7bc7-0
 * Creation of multi-part questions
 * Algebraic answers (using EXCEL style syntax)
 
+A somewhat longer [workshop recording (60 min)](https://video.manchester.ac.uk/embedded/00000000-2acd-6d77-0000-018f2fb2d440) is also available. This recording also discusses how you can build questions that are (fairly) robust to being solved by A.I.
+
 ![](images/divider4.png){width=100%}
 
 ### Flipped Classrooms
