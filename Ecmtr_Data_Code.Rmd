@@ -1,0 +1,87 @@
+---
+title: "Econometrics, Data and Code"
+output:
+  html_document
+---
+
+## Overview
+
+This site links to a number of resources that will be of interest to people with an interest in data analysis (econometrics, data science) and coding.
+
+## Econometrics
+
+I have been teaching econometrics units since I completed my PhD as a Time-Series econometrician. In my teaching I have been using elements of classroom flipping such that I can spend more time in the classroom on motivating students by focusing on intuition and applications. This is facilitated by providing substantial elements of content through video clips. Many of these are collected on my [YouTube Channel](https://www.youtube.com/c/RalfBecker){target="_blank"}.
+
+I am enthusiastic about helping students to develop practical coding skills (currently mainly in R). To support this me and colleagues are collating some resources which guide students throuh the learning process in R on the [Econometric Computing Learning Resource - ECLR](https://datasquad.github.io/ECLR/) webpage.
+
+
+## Data Sources
+
+Here are a few links to interesting data sources and colections I frequently return to
+
+### Data source Collections
+
+Some organisation provide access to a range of datasets collated from different sources:
+
+* [Consumer Data Research Center](https://data.cdrc.ac.uk/){target="_blank"} (e.g. Election Data, Residence-Workplace and travel mode data from Census, Council Tax Maps, Index of Multiple Deprivation, Population density)
+* [The UK Data Service](https://www.ukdataservice.ac.uk/){target="_blank"} (Census data, International macrodata, Qualitative/mixed methods and UK surveys)
+* [Our World in Data](https://ourworldindata.org/){target="_blank"} (Data Stories with good links to data)
+* [St. Louis FRED Database](https://fred.stlouisfed.org/){target="_blank"}. A databse maintained by the St. Louis FED with economic and financial data.
+* [Statitsa](https://www-statista-com.manchester.idm.oclc.org/){target="_blank"} is a website that collates data from a range of different sources and countries. With your university login you have access to this database.
+
+
+
+You could also browse a range of websites which link to a variety of datasets:
+
+* [19 Free Public Data Sets](https://www.springboard.com/blog/free-public-data-sets-data-science-project/){target="_blank"} for Your First Data Science Project
+* [Economic Data Sources collated by UC Davies](http://cameron.econ.ucdavis.edu/e102/data.html){target="_blank"}
+* [Economic Data Sources collated by the Economics Network](https://www.economicsnetwork.ac.uk/data_sets){target="_blank"}
+* [Datasets for published work](https://ejd.econ.mathematik.uni-ulm.de/){target="_blank"}
+
+
+
+
+### Some Specific Datasets
+
+here are links to some specific datasets
+
+#### UK focused data
+
+* [All individual crimes reported in the UK](https://www.police.uk/pu/about-police.uk-crime-data/){target="_blank"}
+* [Department of Environment and Rural Affairs (DEFRA)](https://uk-air.defra.gov.uk/data/){target="_blank"}, from here you can get data on air quality in the UK for different locations
+* Summary data on Road Casualty Data in Scotland by council [Source: Scottish government](https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Froad-safety){target="_blank"}
+* Road traffic data in the UK, [Source: Department for Transport](https://roadtraffic.dft.gov.uk/downloads){target="_blank"}
+* Road accident data [Source: Department for Transport](https://www.gov.uk/government/collections/road-accidents-and-safety-statistics){target="_blank"}. On the basis of these data you can get summaries by different locations and time from [Pedestriansafety.org](http://www.pedestriansafety.org.uk/stats.php){target="_blank"}
+* [UK House Price data](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads){target="_blank"} (Source: Land Registry)
+* During the Covid period (2020 to 2022) Google published a [mobility index](https://www.google.com/covid19/mobility/index.html?hl=en){target="_blank"} which measured national and regional activities in certain areas (like recreational activities, or shopping areas).
+
+
+
+#### non-UK data
+
+
+* [Demographic information on US states and counties](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html){target="_blank"}
+* CO2 emission data are available from the [Global Carbon Budget Data website](https://globalcarbonbudgetdata.org/){target="_blank"}.
+* [UTD19](https://utd19.ethz.ch/){target="_blank"}, traffic data for a range of cities (mainly in Europe).
+* [OECD database of hate crimes](https://hatecrime.osce.org/){target="_blank"},
+* [F.B.I Crime Data Explorer](https://cde.ucr.cjis.gov/){target="_blank"}, U.S. Crime data at different levels of aggregation.
+* [Yearly Big US household survey 2006-onwards](https://usa.ipums.org/usa/){target="_blank"}
+* Housing: prices, sales, etc: [Zillow research data](https://www.zillow.com/research/data/){target="_blank"} or [Realtor.com data](https://www.realtor.com/research/data/){target="_blank"}; Housing characteristics (costs, physical condition, with household characteristics): [American Housing Survey](https://www.census.gov/programs-surveys/ahs/data.html){target="_blank"}; Mortgage rates, LTV, borrower characteristics: [Home Mortgage Disclosure Act](https://www.consumerfinance.gov/data-research/hmda/historic-data/){target="_blank"}; all US
+* [Consumer expenditure survey, US](https://www.bls.gov/cex/){target="_blank"}
+* [Survey of Consumer Finances, US](https://www.federalreserve.gov/econres/scfindex.htm){target="_blank"}
+* [Time use surveys, international](https://www.mtusdata.org/mtus/){target="_blank"}
+* [Panel Study of Income Dynamics](https://psidonline.isr.umich.edu/){target="_blank"}: Tracks consumers over time, so can be used to look at career progression, etc.
+* [Panel data on banks' balance sheets](https://cdr.ffiec.gov/public/){target="_blank"}
+* [Income and living conditions in the EU](https://ec.europa.eu/eurostat/web/income-and-living-conditions/data/database){target="_blank"}
+* [From here you can get global weather data, including historical data.](https://www.visualcrossing.com/){target="_blank"}
+* Reading and Maths achievement in the US. Data by regions and time. [The Nation's Report card](https://www.nationsreportcard.gov/){target="_blank"}
+* US Center for Disease Control [Data on all sorts of diseases](cdc.gov){target="_blank"}. In particular tge [CDC Wonder Database](https://wonder.cdc.gov/ucd-icd10.html){target="_blank"} can help you get detailed data by location and time.
+* Data on US school outcomes (like average maths or literacy scores) by year and geographical unit (e.g. states). [The Nation's Report Card](https://www.nationsreportcard.gov/ndecore/xplore/NDE){target="_blank"}.
+* The [World Bank](https://data.worldbank.org/){target="_blank"} has a range of data amongst others a [database of different inflation time-series](https://www.worldbank.org/en/research/brief/inflation-database){target="_blank"} for many countries.
+
+
+
+
+
+
+

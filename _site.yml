@@ -8,6 +8,8 @@ navbar:
       href: Teaching_Units.html
     - text: "Teaching - General"
       href: Teaching_General.html
+    - text: "Econometrics, Data and Code"
+      href: Ecmtr_Data_Code.html
       
 output_dir: "."
 output:

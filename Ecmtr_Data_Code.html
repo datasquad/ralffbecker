@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Econometrics, Data and Code</title>
+
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">HOME</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="CV.html">Contact and CV</a>
+</li>
+<li>
+  <a href="Teaching_Units.html">Teaching - Units</a>
+</li>
+<li>
+  <a href="Teaching_General.html">Teaching - General</a>
+</li>
+<li>
+  <a href="Ecmtr_Data_Code.html">Econometrics, Data and Code</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Econometrics, Data and Code</h1>
+
+</div>
+
+
+<div id="overview" class="section level2">
+<h2>Overview</h2>
+<p>This site links to a number of resources that will be of interest to
+people with an interest in data analysis (econometrics, data science)
+and coding.</p>
+</div>
+<div id="econometrics" class="section level2">
+<h2>Econometrics</h2>
+<p>I have been teaching econometrics units since I completed my PhD as a
+Time-Series econometrician. In my teaching I have been using elements of
+classroom flipping such that I can spend more time in the classroom on
+motivating students by focusing on intuition and applications. This is
+facilitated by providing substantial elements of content through video
+clips. Many of these are collected on my <a
+href="https://www.youtube.com/c/RalfBecker" target="_blank">YouTube
+Channel</a>.</p>
+<p>I am enthusiastic about helping students to develop practical coding
+skills (currently mainly in R). To support this me and colleagues are
+collating some resources which guide students throuh the learning
+process in R on the <a
+href="https://datasquad.github.io/ECLR/">Econometric Computing Learning
+Resource - ECLR</a> webpage.</p>
+</div>
+<div id="data-sources" class="section level2">
+<h2>Data Sources</h2>
+<p>Here are a few links to interesting data sources and colections I
+frequently return to</p>
+<div id="data-source-collections" class="section level3">
+<h3>Data source Collections</h3>
+<p>Some organisation provide access to a range of datasets collated from
+different sources:</p>
+<ul>
+<li><a href="https://data.cdrc.ac.uk/" target="_blank">Consumer Data
+Research Center</a> (e.g. Election Data, Residence-Workplace and travel
+mode data from Census, Council Tax Maps, Index of Multiple Deprivation,
+Population density)</li>
+<li><a href="https://www.ukdataservice.ac.uk/" target="_blank">The UK
+Data Service</a> (Census data, International macrodata,
+Qualitative/mixed methods and UK surveys)</li>
+<li><a href="https://ourworldindata.org/" target="_blank">Our World in
+Data</a> (Data Stories with good links to data)</li>
+<li><a href="https://fred.stlouisfed.org/" target="_blank">St. Louis
+FRED Database</a>. A databse maintained by the St. Louis FED with
+economic and financial data.</li>
+<li><a href="https://www-statista-com.manchester.idm.oclc.org/"
+target="_blank">Statitsa</a> is a website that collates data from a
+range of different sources and countries. With your university login you
+have access to this database.</li>
+</ul>
+<p>You could also browse a range of websites which link to a variety of
+datasets:</p>
+<ul>
+<li><a
+href="https://www.springboard.com/blog/free-public-data-sets-data-science-project/"
+target="_blank">19 Free Public Data Sets</a> for Your First Data Science
+Project</li>
+<li><a href="http://cameron.econ.ucdavis.edu/e102/data.html"
+target="_blank">Economic Data Sources collated by UC Davies</a></li>
+<li><a href="https://www.economicsnetwork.ac.uk/data_sets"
+target="_blank">Economic Data Sources collated by the Economics
+Network</a></li>
+<li><a href="https://ejd.econ.mathematik.uni-ulm.de/"
+target="_blank">Datasets for published work</a></li>
+</ul>
+</div>
+<div id="some-specific-datasets" class="section level3">
+<h3>Some Specific Datasets</h3>
+<p>here are links to some specific datasets</p>
+<div id="uk-focused-data" class="section level4">
+<h4>UK focused data</h4>
+<ul>
+<li><a href="https://www.police.uk/pu/about-police.uk-crime-data/"
+target="_blank">All individual crimes reported in the UK</a></li>
+<li><a href="https://uk-air.defra.gov.uk/data/"
+target="_blank">Department of Environment and Rural Affairs (DEFRA)</a>,
+from here you can get data on air quality in the UK for different
+locations</li>
+<li>Summary data on Road Casualty Data in Scotland by council <a
+href="https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Froad-safety"
+target="_blank">Source: Scottish government</a></li>
+<li>Road traffic data in the UK, <a
+href="https://roadtraffic.dft.gov.uk/downloads" target="_blank">Source:
+Department for Transport</a></li>
+<li>Road accident data <a
+href="https://www.gov.uk/government/collections/road-accidents-and-safety-statistics"
+target="_blank">Source: Department for Transport</a>. On the basis of
+these data you can get summaries by different locations and time from <a
+href="http://www.pedestriansafety.org.uk/stats.php"
+target="_blank">Pedestriansafety.org</a></li>
+<li><a
+href="https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+target="_blank">UK House Price data</a> (Source: Land Registry)</li>
+<li>During the Covid period (2020 to 2022) Google published a <a
+href="https://www.google.com/covid19/mobility/index.html?hl=en"
+target="_blank">mobility index</a> which measured national and regional
+activities in certain areas (like recreational activities, or shopping
+areas).</li>
+</ul>
+</div>
+<div id="non-uk-data" class="section level4">
+<h4>non-UK data</h4>
+<ul>
+<li><a
+href="https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html"
+target="_blank">Demographic information on US states and
+counties</a></li>
+<li>CO2 emission data are available from the <a
+href="https://globalcarbonbudgetdata.org/" target="_blank">Global Carbon
+Budget Data website</a>.</li>
+<li><a href="https://utd19.ethz.ch/" target="_blank">UTD19</a>, traffic
+data for a range of cities (mainly in Europe).</li>
+<li><a href="https://hatecrime.osce.org/" target="_blank">OECD database
+of hate crimes</a>,</li>
+<li><a href="https://cde.ucr.cjis.gov/" target="_blank">F.B.I Crime Data
+Explorer</a>, U.S. Crime data at different levels of aggregation.</li>
+<li><a href="https://usa.ipums.org/usa/" target="_blank">Yearly Big US
+household survey 2006-onwards</a></li>
+<li>Housing: prices, sales, etc: <a
+href="https://www.zillow.com/research/data/" target="_blank">Zillow
+research data</a> or <a href="https://www.realtor.com/research/data/"
+target="_blank">Realtor.com data</a>; Housing characteristics (costs,
+physical condition, with household characteristics): <a
+href="https://www.census.gov/programs-surveys/ahs/data.html"
+target="_blank">American Housing Survey</a>; Mortgage rates, LTV,
+borrower characteristics: <a
+href="https://www.consumerfinance.gov/data-research/hmda/historic-data/"
+target="_blank">Home Mortgage Disclosure Act</a>; all US</li>
+<li><a href="https://www.bls.gov/cex/" target="_blank">Consumer
+expenditure survey, US</a></li>
+<li><a href="https://www.federalreserve.gov/econres/scfindex.htm"
+target="_blank">Survey of Consumer Finances, US</a></li>
+<li><a href="https://www.mtusdata.org/mtus/" target="_blank">Time use
+surveys, international</a></li>
+<li><a href="https://psidonline.isr.umich.edu/" target="_blank">Panel
+Study of Income Dynamics</a>: Tracks consumers over time, so can be used
+to look at career progression, etc.</li>
+<li><a href="https://cdr.ffiec.gov/public/" target="_blank">Panel data
+on banks’ balance sheets</a></li>
+<li><a
+href="https://ec.europa.eu/eurostat/web/income-and-living-conditions/data/database"
+target="_blank">Income and living conditions in the EU</a></li>
+<li><a href="https://www.visualcrossing.com/" target="_blank">From here
+you can get global weather data, including historical data.</a></li>
+<li>Reading and Maths achievement in the US. Data by regions and time.
+<a href="https://www.nationsreportcard.gov/" target="_blank">The
+Nation’s Report card</a></li>
+<li>US Center for Disease Control <a href="cdc.gov" target="_blank">Data
+on all sorts of diseases</a>. In particular tge <a
+href="https://wonder.cdc.gov/ucd-icd10.html" target="_blank">CDC Wonder
+Database</a> can help you get detailed data by location and time.</li>
+<li>Data on US school outcomes (like average maths or literacy scores)
+by year and geographical unit (e.g. states). <a
+href="https://www.nationsreportcard.gov/ndecore/xplore/NDE"
+target="_blank">The Nation’s Report Card</a>.</li>
+<li>The <a href="https://data.worldbank.org/" target="_blank">World
+Bank</a> has a range of data amongst others a <a
+href="https://www.worldbank.org/en/research/brief/inflation-database"
+target="_blank">database of different inflation time-series</a> for many
+countries.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
