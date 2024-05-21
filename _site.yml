@@ -1,6 +1,6 @@
 name: "Ralf Becker"
 navbar:
-  title: "HOME"
+  title: "Ralf Becker - HOME"
   left:
     - text: "Contact and CV"
       href: CV.html

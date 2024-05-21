@@ -1,7 +1,9 @@
 ---
 title: "Teaching - Units"
 output:
-  html_document
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ## Overview
