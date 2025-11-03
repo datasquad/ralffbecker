@@ -103,6 +103,8 @@ I have been teaching econometrics units since I completed my PhD as a Time-Serie
 
 I am enthusiastic about helping students to develop practical coding skills (currently mainly in R). To support this me and colleagues are collating some resources which guide students throuh the learning process in R on the [Econometric Computing Learning Resource - ECLR](https://datasquad.github.io/ECLR/) webpage.
 
+I am thinking about how coding education for economics students should adapt to the emergence of AI tools like ChatGPT or Copilot. There is still a lot to be explored in this area, but for sure I believe that when providing guidance to students we should be careful to not just provide correct code. We need to help students to learn to struggle, including fixing mistakes, searching for help (e.g. via Google or ChatGPT), reading and understanding code proposals received and adapting these. On this [page](https://datasquad.github.io/DEE2025_coding/) I am providing an example of code guidance to students that attempts to develop such skills.
+
 
 
 
