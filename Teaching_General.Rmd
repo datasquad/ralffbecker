@@ -36,25 +36,9 @@ In summary I conclude that, certainly in the context of this course unit, but pe
 
 [Presentation Slides](docs/Using an Online Interactive Textbook for Content Delivery - Warwick Oct 2022.pptx){target="_blank"}  
 
-Here are a few examples of such lesson from the Advanced Statistics unit. They are set as pdf files, but you will see from these files how the questions and videos are tied in with the content delivery.
+While these Lessons are delivered via Mobius for my students at The University of Manchester. A freely accessible online book for the [Statistics Lesson (as a Quarto book)](https://datasquad.github.io/StatisticsNotesBook/) is available. 
 
-* [Introduction to Statistics](docs/Intro to Stats.pdf){target="_blank"}  
-* [Data Types](docs/DataTypes.pdf){target="_blank"}
-* [Descriptive Statistics](docs/DescriptiveStatistics.pdf){target="_blank"}
-* [Graphical Descriptive](docs/GraphicalDescriptive.pdf){target="_blank"}
-* [Correlation and Regression as Descriptive Statistics](docs/CorrReg.pdf){target="_blank"}
-* [Introduction to Probability](docs/ProbIntro.pdf){target="_blank"}
-* [Conditional Probability](docs/ProbCond.pdf){target="_blank"}
-* [Discrete Random Variables](docs/Discrete RV.pdf){target="_blank"}
-* [Continuous Random variables](docs/Continuous RV.pdf){target="_blank"}
-* [Normal Random Variables](docs/Normal RV.pdf){target="_blank"}
-* [Combinations of Random Variables](docs/Combinations of RV.pdf){target="_blank"}
-* [Sampling Distributions](docs/Sampling Distributions.pdf){target="_blank"}
-* [Hypothesis Testing](docs/Hypothesis Testing.pdf){target="_blank"}
-* [Confidence Intervals](docs/Confidence Interval.pdf){target="_blank"}
-* [Regression Inference](docs/Regression Inference.pdf){target="_blank"}
-
-Some of the work leading to this has been supported by the Royal Economic Society, COVID support funds. Some of these sections received substantial editorial and editing support from Yichen Zhu, University of Manchester.
+Some of the work leading to this has been supported by the Royal Economic Society, COVID support funds. Some of these sections received substantial editorial and editing support from Yichen Zhu (now at Aston University). 
 
 ![](images/divider2.png){width=100%}
 
@@ -101,7 +85,7 @@ Much of this work was supported by the University of Manchester's [Institute of 
 
 I have been teaching econometrics units since I completed my PhD as a Time-Series econometrician. In my teaching I have been using elements of classroom flipping such that I can spend more time in the classroom on motivating students by focusing on intuition and applications. This is facilitated by providing substantial elements of content through video clips. Many of these are collected on my [YouTube Channel](https://www.youtube.com/c/RalfBecker){target="_blank"}.
 
-I am enthusiastic about helping students to develop practical coding skills (currently mainly in R). To support this me and colleagues are collating some resources which guide students throuh the learning process in R on the [Econometric Computing Learning Resource - ECLR](https://datasquad.github.io/ECLR/) webpage.
+I am enthusiastic about helping students to develop practical coding skills (currently mainly in R). To support this me and colleagues are collating some resources which guide students through the learning process in R or Python on the [Econometric Computing Learning Resource - ECLR](https://datasquad.github.io/ECLR/) webpage.
 
 I am thinking about how coding education for economics students should adapt to the emergence of AI tools like ChatGPT or Copilot. There is still a lot to be explored in this area, but for sure I believe that when providing guidance to students we should be careful to not just provide correct code. We need to help students to learn to struggle, including fixing mistakes, searching for help (e.g. via Google or ChatGPT), reading and understanding code proposals received and adapting these. On this [page](https://datasquad.github.io/DEE2025_coding/) we (together with my colleague Yichen Zhu, Aston University) we are providing an example of code guidance to students that attempts to develop such skills.
 
