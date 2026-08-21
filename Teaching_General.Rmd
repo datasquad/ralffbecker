@@ -12,6 +12,19 @@ Teaching was always central to my understanding as a University lecturer. I have
 
 Below you will find some of my thoughts on a range of issues.
 
+
+### Writing Code instruction files (for R or Python)
+
+I think carefully about how to present coding instruction to Economists such that learners engage with the code and can draw a maximum amount of learning from these instructions. I believe that it is important that learners learn general techniques rather than meemorise correct commands. My instructions to learners therefore ensure to incorporate:
+
+* Support on general coding techniques
+* Guidance on how to seek help (by using documentation, asking LLMs or websearches)
+* Help on reading code
+* Help on adjusting code to the circumstances
+* Help on dealing with error messages
+
+RMarkdown and Quarto files for R code and interactive Jupyter notebooks for Python give teachers plenty of options to incoorporate interactive elements into their instruction documentation. In this [DEE2025 workshop](https://datasquad.github.io/DEE2025_coding/) I provide examples and templates for such workbooks. 
+
 ### Doing Economics
 
 Together with Eileen Tipoe I have authored the [Doing Economics](https://www.core-econ.org/doing-economics/){target="_blank"} online book, which is part of the [coreecon portfolio of online resources](https://www.core-econ.org/){target="_blank"}. My main contribution here (together with my late friend and colleague James Lincoln) is the writing of the R versions of projects.
