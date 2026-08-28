@@ -49,7 +49,7 @@ In summary I conclude that, certainly in the context of this course unit, but pe
 
 [Presentation Slides](docs/Using an Online Interactive Textbook for Content Delivery - Warwick Oct 2022.pptx){target="_blank"}  
 
-While these Lessons are delivered via Mobius for my students at The University of Manchester. A freely accessible online book for the [Statistics Lesson (as a Quarto book)](https://datasquad.github.io/StatisticsNotesBook/) is available. 
+While these Lessons are delivered via Mobius for my students at The University of Manchester. A freely accessible online book for the [Statistics Lesson (as a Quarto book)](https://datasquad.github.io/StatisticsNotesBook/) is available. This online book contains the excellent functionality of the [webexercises](https://psyteachr.github.io/webexercises/) package. Incorporating this into a Quarto book was not straightforward. [Here](https://datasquad.github.io/QuartoBook-with-Webexercises-Template/) I offer guidance on setting up an online book that incorporates this functionality.
 
 Some of the work leading to this has been supported by the Royal Economic Society, COVID support funds. Some of these sections received substantial editorial and editing support from Yichen Zhu (now at Aston University). 
 
