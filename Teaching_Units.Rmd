@@ -27,4 +27,11 @@ A major contribution of this unit is to put the programming (in R) at the center
 In addition there are regular computer labs leading students through programming tasks. The main feature of these computer labs is that students are guided through the material without being given all the correct code. With appropriate scaffolding students are asked to complete code, adjust code, find errors in code, use the help functions and search on the internet for solutions. This is to help students develop programming skills which allow them to prosper outside the confines of the unit. (Examples: [Lab 0](docs/Comp_Lab_0.pdf){target="_blank"}, [Lab 1](docs/Comp_Lab_1.pdf){target="_blank"}, [Lab 2](docs/Comp_Lab_2.pdf){target="_blank"})
 
 
+### Other Units
 
+Over the years I have been teaching in a range of other units:
+
+* Studying Economics, a unit for first year specialist economics students in which students practice their writing, discussing and begin to discover what economists do in real life.
+* Econometrics, a second year Econometrics units that covered a traditional, Wooldridge-type, syllabus
+* Econometrics and Data Science, A 3rd year specialist unit that covered the intersection between Econometrics and Data Science
+* Programming and other skills for Data Scientists, a postgraduate unit in which students learned how to do empirical work in R and Python

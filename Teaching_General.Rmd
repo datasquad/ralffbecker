@@ -25,6 +25,10 @@ I think carefully about how to present coding instruction to Economists such tha
 
 RMarkdown and Quarto files for R code and interactive Jupyter notebooks for Python give teachers plenty of options to incoorporate interactive elements into their instruction documentation. In this [DEE2025 workshop](https://datasquad.github.io/DEE2025_coding/) I provide examples and templates for such workbooks. 
 
+I am currently on Sabbatical investigating how our empirical coding education to economics students should change and adapt to the emergence of AI as a very capable code writer. If you are thinking about this issue as well, please do get in touch. I want to talk to you.
+
+![](images/divider2.png){width=100%}
+
 ### Doing Economics
 
 Together with Eileen Tipoe I have authored the [Doing Economics](https://www.core-econ.org/doing-economics/){target="_blank"} online book, which is part of the [coreecon portfolio of online resources](https://www.core-econ.org/){target="_blank"}. My main contribution here (together with my late friend and colleague James Lincoln) is the writing of the R versions of projects.
@@ -61,13 +65,13 @@ As I have been teaching Mathematics and Statistics for large Year 1 University c
 
 The method used in my big Year 1 Advanced Mathematics and Advanced Statistics units rely on the Mobius platform by [DigitalEd](https://www.digitaled.com/mobius) (similar assessments can, to the best of my knowledge, be designed using the [Stack](https://stack-assessment.org/) platform).
 
-This [video, 22min](https://video.manchester.ac.uk/embedded/ffffffff-f535-7bc7-0000-01830d8762c0) describes the user interface and some of the useful assessment features that can be built into automated assessments. Some of these are
+This [video, 22min](https://video.manchester.ac.uk/embedded/ffffffff-f535-7bc7-0000-01830d8762c0){target="_blank"} describes the user interface and some of the useful assessment features that can be built into automated assessments. Some of these are
 
 * Randomisation of question information
 * Creation of multi-part questions
 * Algebraic answers (using EXCEL style syntax)
 
-A somewhat longer [workshop recording (60 min)](https://video.manchester.ac.uk/embedded/00000000-2acd-6d77-0000-018f2fb2d440) is also available. This recording also discusses how you can build questions that are (fairly) robust to being solved by A.I.
+A somewhat longer [workshop recording (60 min)](https://video.manchester.ac.uk/embedded/00000000-2acd-6d77-0000-018f2fb2d440){target="_blank"} is also available. This recording also discusses how you can build questions that are (fairly) robust to being solved by A.I.
 
 ![](images/divider4.png){width=100%}
 

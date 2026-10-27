@@ -14,8 +14,6 @@ United Kingdom
 ralf.becker@manchester.ac.uk  
 ralffbecker@gmail.com  
 
-![Caption](images/twitter.png){width=5%}[ Twitter](https://twitter.com/ralffbecker){target="_blank"}
-
 ![Caption](images/youtube.png){width=5%}[ YouTube Channel](https://www.youtube.com/c/RalfBecker){target="_blank"}
 
 ## Curriculum Vitae
